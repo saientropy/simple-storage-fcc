@@ -7,7 +7,7 @@ pragma solidity 0.8.8;
 
 contract SimpleStorage {
 
-    uint256 favoriteNumber;
+    uint256 favoriteNumber; //gets initialized to zero
 
     struct People {
         uint256 favoriteNumber;
